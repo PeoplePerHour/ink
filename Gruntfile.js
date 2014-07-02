@@ -95,6 +95,13 @@ module.exports = function(grunt) {
           livereload: true,
         },
       },
+      templates: {
+        files: ['templates/**/*.html'],
+        tasks: ['assemble:templates'],
+        options: {
+          livereload: true,
+        },
+      },
     },
   });
 
