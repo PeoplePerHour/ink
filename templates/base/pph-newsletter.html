@@ -53,7 +53,11 @@
         margin-bottom: 10px;
     }
 
-    .pphsectionheading {
+    table.pphsectionheading td {
+        padding-bottom: 0px;
+    }
+
+    .pphsectionheading h2 {
         margin-top: 5px;
         margin-bottom: 0px;
     }
@@ -66,6 +70,14 @@
         color: #848484;
     }
 
+    @media only screen and (max-width: 600px) {
+
+      p.pphcenterformobile {
+        text-align:center !important;
+      }
+
+    }
+
   </style>
 </head>
 <body>
@@ -73,7 +85,6 @@
         <tr>
             <td class="center" align="center" valign="top">
         <center>
-
 
           <table class="row header" background="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/blackbg.png">
             <tr>
@@ -122,9 +133,13 @@
                         <tr>
                           <td align="center">
                             <center>
-                              <p style="text-align:center;"><a href="#Marketplace">Community Update</a>
-                              <img class="pphnormalimg" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/li.png">
-                              <a href="#News">Other PPH News</a></p>
+                              <p style="text-align:center;">
+                                <a href="#Marketplace">Community Update</a>
+                                &nbsp;
+                                <img class="pphnormalimg" alt="|" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/li.png" />
+                                &nbsp;
+                                <a href="#News">Other PPH News</a>
+                              </p>
                             </center>
                           </td>
                           <td class="expander"></td>
@@ -172,7 +187,7 @@
                           <td class="center">
                             <center>
                             <p>
-                                <img class="center" width="580" height="300" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/heroimg_580x300.png">
+                                <img class="center" width="580" height="300" alt="hero image" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/heroimg_580x300.png" />
                             </p>
                             </center>
                           </td>
@@ -188,11 +203,11 @@
                   <tr>
                     <td class="wrapper last">
 
-                      <table class="twelve columns">
+                      <table class="twelve columns pphsectionheading">
                         <tr>
                           <td>
 
-                            <a name="Marketplace"></a><h2 class="pphsectionheading">Meet our latest sellers</h2>
+                            <a name="Marketplace"></a><h2>Meet our latest sellers</h2>
 
                           </td>
                           <td class="expander"></td>
@@ -213,10 +228,14 @@
                           <td class="center">
                             <center>
 
-                              <!-- Centered image -->
+                            <p>
                               <a href="http://blog.peopleperhour.com/blogroll/pph-gets-a-facelift/">
-                                <img class="center" width="280" height="180" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img1_280x180.png">
+                                <img class="center" width="280" height="180" alt="meet our seller" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img1_280x180.png" />
                               </a>
+                            </p>
+                            <p class="pphcenterformobile">
+                                Meet Lucy a Graphic Designer from Norway.
+                            </p>
 
                             </center>
                           </td>
@@ -232,11 +251,15 @@
                           <td class="center">
                             <center>
 
+                            <p>
                               <!-- Centered image -->
                               <a href="http://blog.peopleperhour.com/blogroll/pph-gets-a-facelift/">
-                                <img class="center" width="280" height="180" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img2_280x180.png">
+                                <img class="center" width="280" height="180" alt="meet our seller" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img2_280x180.png" />
                               </a>
-
+                            </p>
+                            <p class="pphcenterformobile">
+                                Meet john a technical writer with 15 years experience.
+                            </p>
                             </center>
                           </td>
                           <td class="expander"></td>
@@ -251,11 +274,11 @@
                   <tr>
                     <td class="wrapper last">
 
-                      <table class="twelve columns">
+                      <table class="twelve columns pphsectionheading">
                         <tr>
                           <td>
 
-                            <a name="News"></a><h2 class="pphsectionheading">Latest PPH News</h2>
+                            <a name="News"></a><h2>Latest PPH News</h2>
 
                           </td>
                           <td class="expander"></td>
@@ -277,7 +300,7 @@
                             <center>
 
                               <p>
-                                  <img class="center" width="280" height="180" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img3_280x180.png">
+                                  <img class="center" width="280" height="180" alt="news1" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img3_280x180.png" />
                               </p>
 
                               <h3>Subtitle</h3>
@@ -305,7 +328,7 @@
                             <center>
 
                               <p>
-                                <img class="center" width="280" height="180" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img4_280x180.png">
+                                <img class="center" width="280" height="180" alt="news2" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/samples/img4_280x180.png" />
                               </p>
 
                               <h3>Subtitle</h3>
@@ -338,11 +361,11 @@
 
                             <h3>Do you need something custom?</h3>
 
-                              <p>
+                            <p>
                                 <a href="http://www.peopleperhour.com/job/new" title="Do you need something custom?">
-                                    <img class="center" width="580" height="36" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/search-cta.png" alt="Lets Go">
+                                    <img class="center" width="580" height="36" src="https://pph_mailchap_images.s3.amazonaws.com/Newsletter/search-cta.png" alt="Lets Go" />
                                 </a>
-                              </p>
+                            </p>
 
                           </td>
                           <td class="expander"></td>
@@ -387,7 +410,7 @@
                             <center>
                               <p class="quiet" style="text-align:center;"><small>
                                   You are receiving this newsletter because you are registered in PeoplePerHour.<br>
-                                  If you prefer not to receive it anymore, you may <a href="#">unsubscribe</a>.
+                                  If you prefer not to receive it anymore, you may <a href="*|UNSUB|*">unsubscribe</a>.
                               </small></p>
                             </center>
                           </td>
@@ -408,5 +431,8 @@
             </td>
         </tr>
     </table>
+
+    <img alt="" width="1" height="1" src="*|IMGSTATS|*" />
+
 </body>
 </html>
