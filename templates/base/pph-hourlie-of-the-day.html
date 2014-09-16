@@ -1,8 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!--Because ink removes the {{HourlieTitle_X}} placeholders-->
-<!--I replaced them with [[HourlieTitle_X]] so after the template is compiled-->
-<!--I can do a quick search/replace -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width"/>
@@ -14,27 +11,10 @@
         font-family: Arial, Helvetica, sans-serif;
         color: #505050;
     }
-    a {
-        color: #d26000;
-        text-decoration: none !important;
-    }
-
-    a:hover {
-        color: #d26000 !important;
-        text-decoration: none !important;
-    }
-    a:active {
-        color: #d26000 !important;
-        text-decoration: none !important;
-    }
-
-    a:visited {
-        color: #d26000 !important;
-    }
-
     table.body {
         background-color: #eeeeee;
     }
+
 
     .header, .footer {
         background: #000 url(https://pph_mailchap_images.s3.amazonaws.com/Newsletter/blackbg.png);
@@ -43,6 +23,27 @@
     .pphnormalimg {
         float: none;
         display: inline;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    table.pphsectionheading td {
+        padding-bottom: 0px;
+    }
+
+    .pphsectionheading h2 {
+        margin-top: 5px;
+        margin-bottom: 0px;
     }
 
     .footericon {
@@ -57,11 +58,6 @@
         border: 1px solid #dfdfdf;
     }
 
-    table.pph-hourlie img {
-        width: 100%;
-    }
-
-
     table.pph-hourlie .wrapper {
         padding: 0;
     }
@@ -69,13 +65,15 @@
     table.row.pph-primary .pph-hourlie p.image {
         max-height: 280px;
         overflow: hidden;
-        position: relative;
     }
 
-    table.row.pph-primary td.pph-hourlie-price {
-        padding-bottom: 17px;
-        line-height: 35px;
+    .pph-hourlie img {
+        width: 100%;
+    }
 
+    table.row.pph-primary .pph-hourlie img {
+        position: relative;
+        top: -80px;
     }
 
     table.row.pph-primary td.pph-hourlie-title {
@@ -93,10 +91,6 @@
         padding: 0;
     }
 
-    table.row.pph-default table.pph-hourlie td.pph-hourlie-title div {
-        min-height: 40px;
-    }
-
     table.row.pph-default table.pph-hourlie td.pph-hourlie-title,
     table.row.pph-default table.pph-hourlie td.pph-hourlie-price {
         padding: 0 0 13px 17px;
@@ -106,9 +100,23 @@
 
     }
 
+    table.row.pph-default table.pph-hourlie td.pph-hourlie-title div {
+        min-height: 40px;
+    }
+
+    table.pph-hourlie td.pph-hourlie-title a {
+        text-decoration: none !important;
+    }
+
     table.row.pph-default table.pph-hourlie td.pph-hourlie-price {
         padding-bottom: 0px;
         line-height: 34px;
+    }
+
+    table.row.pph-primary td.pph-hourlie-price {
+        padding-bottom: 17px;
+        line-height: 35px;
+
     }
 
     table.pph-hourlie tr.grey {
@@ -123,6 +131,9 @@
         color: #848484;
     }
 
+    table.button.call-to-action {
+        width: 100px;
+    }
     table.button.call-to-action td {
         background-color: #ff7300;
         color: #fff;
@@ -926,30 +937,19 @@
                                 - <a href="http://www.peopleperhour.com/hourlies/design/6650/arts-illustration/7440?ref=daily-mail-categories">Arts & Illustration</a><br/>
                                 - <a href="http://www.peopleperhour.com/hourlies/design/6650/logo-identity/6660?ref=daily-mail-categories">Logo & Identity</a><br/>
                                 - <a href="http://www.peopleperhour.com/hourlies/design/6650/business-advertising/7240?ref=daily-mail-categories">Business & Advertising</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/design/6650/animation/7380?ref=daily-mail-categories">Animation</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/design/6650/image-editing/7840?ref=daily-mail-categories">Image editing</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/design/6650/books-magazines/7910?ref=daily-mail-categories">Books & Magazines</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/design/6650/label-merchandizing/7990?ref=daily-mail-categories">Label & Merchandizing</a><br/>
-                            <strong><br/>
-                                <a href="http://www.peopleperhour.com/hourlies/web-development/1930?ref=daily-mail-categories">WEB DEVELOPMENT</a></strong><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/custom-website/1990?ref=daily-mail-categories">Custom Website</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/other/2220?ref=daily-mail-categories">Other</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/mobile-website/2060?ref=daily-mail-categories">Mobile Website</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/ecommerce/2070?ref=daily-mail-categories">eCommerce</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/wordpress-cms/1940?ref=daily-mail-categories">WordPress/CMS</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/blog/2150?ref=daily-mail-categories">Blog</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/email-template/2160?ref=daily-mail-categories">Newsletter/Email Template</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/social-app/2170?ref=daily-mail-categories">Soical App</a><br/>
-                            <strong>
-                                <br />
-                                <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10?ref=daily-mail-categories">VIDEO, PHOTO & AUDIO</a></strong><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/video/20?ref=daily-mail-categories">Video</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/image-editing/270?ref=daily-mail-categories">Image Editing</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/audio/200?ref=daily-mail-categories">Audio</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/photography/110?ref=daily-mail-categories">Photography</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/voiceover/260?ref=daily-mail-categories">Voiceover</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/film-making/340?ref=daily-mail-categories">Film                             making</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/music/380?ref=daily-mail-categories">Music</a><br/>
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/design/6650/animation/7380?ref=daily-mail-categories">Animation</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/design/6650/image-editing/7840?ref=daily-mail-categories">Image editing</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/design/6650/books-magazines/7910?ref=daily-mail-categories">Books & Magazines</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/design/6650/label-merchandizing/7990?ref=daily-mail-categories">Label & Merchandizing</a><br/>-->
+                            <br/><strong><a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900?ref=daily-mail-categories">SALES & MARKETING</a></strong><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/seo/4910?ref=daily-mail-categories">SEO</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/sem-adwords-ppc/4990?ref=daily-mail-categories">SEM/Adwords/PPC</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/sales-calls/5010?ref=daily-mail-categories">Sales/Calls</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/business-data/5100?ref=daily-mail-categories">Business data</a><br/>
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/strategy-research/5180?ref=daily-mail-categories">Strategy/Research</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/email-marketing/5000?ref=daily-mail-categories">Email marketing</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/press-release/5170?ref=daily-mail-categories">Press release</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/other/5250?ref=daily-mail-categories">Other</a><br/>-->
                         </td>
                     </tr>
                 </table>
@@ -964,35 +964,44 @@
                 <table>
                     <tr>
                         <td>
-                            <strong><a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900?ref=daily-mail-categories">SALES & MARKETING</a></strong><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/seo/4910?ref=daily-mail-categories">SEO</a><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/sem-adwords-ppc/4990?ref=daily-mail-categories">SEM/Adwords/PPC</a><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/sales-calls/5010?ref=daily-mail-categories">Sales/Calls</a><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/business-data/5100?ref=daily-mail-categories">Business data</a><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/strategy-research/5180?ref=daily-mail-categories">Strategy/Research</a><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/email-marketing/5000?ref=daily-mail-categories">Email marketing</a><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/press-release/5170?ref=daily-mail-categories">Press release</a><br/>
-                            - <a href="http://www.peopleperhour.com/hourlies/sales-marketing/4900/other/5250?ref=daily-mail-categories">Other</a><br/>
-                            <strong><br />
-                                <a href="http://www.peopleperhour.com/hourlies/business-support/3360?ref=daily-mail-categories">BUSINESS SUPPORT</a></strong><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/typing-proofreading/3370?ref=daily-mail-categories">Typing/Proofreading</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/business-services/3450?ref=daily-mail-categories">Business services</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/accounting-tax/3670?ref=daily-mail-categories">Accounting/Tax</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/other/3840?ref=daily-mail-categories">Other</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/data-research/3830?ref=daily-mail-categories">Data research</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/va-admin-support/3760?ref=daily-mail-categories">VA/Admin support</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/excel-vba/3360?ref=daily-mail-categories">Excel/VBA</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/business-support/3360/presentations/3800?ref=daily-mail-categories">Presentations</a><br/>
-                            <strong><br />
-                                <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480?ref=daily-mail-categories">WRITING & TRANSLATION</a></strong><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/web-content/8490?ref=daily-mail-categories">Web Content</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/copywriting-proofreading/8590?ref=daily-mail-categories">Copywriting/Proofreading</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/business-marketing/8690?ref=daily-mail-categories">Business & Marketing</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/article/8580?ref=daily-mail-categories">Article</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/translation/8780?ref=daily-mail-categories">Translation</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/technical-writing/8870?ref=daily-mail-categories">Technical writing</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/creative-writing/8600?ref=daily-mail-categories">Creative writing</a><br/>
-                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/cv-cover-letter/8960?ref=daily-mail-categories">CV/Cover Letter</a><br/>
+                            <strong>
+                                <a href="http://www.peopleperhour.com/hourlies/web-development/1930?ref=daily-mail-categories">WEB DEVELOPMENT</a></strong><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/custom-website/1990?ref=daily-mail-categories">Custom Website</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/other/2220?ref=daily-mail-categories">Other</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/mobile-website/2060?ref=daily-mail-categories">Mobile Website</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/web-development/1930/ecommerce/2070?ref=daily-mail-categories">eCommerce</a><br/>
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/web-development/1930/wordpress-cms/1940?ref=daily-mail-categories">WordPress/CMS</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/web-development/1930/blog/2150?ref=daily-mail-categories">Blog</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/web-development/1930/email-template/2160?ref=daily-mail-categories">Newsletter/Email Template</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/web-development/1930/social-app/2170?ref=daily-mail-categories">Soical App</a><br/>-->
+                            <strong>
+                                <br />
+                                <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10?ref=daily-mail-categories">VIDEO, PHOTO & AUDIO</a></strong><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/video/20?ref=daily-mail-categories">Video</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/image-editing/270?ref=daily-mail-categories">Image Editing</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/audio/200?ref=daily-mail-categories">Audio</a><br/>
+                            - <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/photography/110?ref=daily-mail-categories">Photography</a><br/>
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/voiceover/260?ref=daily-mail-categories">Voiceover</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/film-making/340?ref=daily-mail-categories">Film                             making</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/music/380?ref=daily-mail-categories">Music</a><br/>-->
+                            <!--<strong><br />-->
+                                <!--<a href="http://www.peopleperhour.com/hourlies/business-support/3360?ref=daily-mail-categories">BUSINESS SUPPORT</a></strong><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/typing-proofreading/3370?ref=daily-mail-categories">Typing/Proofreading</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/business-services/3450?ref=daily-mail-categories">Business services</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/accounting-tax/3670?ref=daily-mail-categories">Accounting/Tax</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/other/3840?ref=daily-mail-categories">Other</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/data-research/3830?ref=daily-mail-categories">Data research</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/va-admin-support/3760?ref=daily-mail-categories">VA/Admin support</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/excel-vba/3360?ref=daily-mail-categories">Excel/VBA</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/presentations/3800?ref=daily-mail-categories">Presentations</a><br/>-->
+                            <!--<strong><a href="http://www.peopleperhour.com/hourlies/social-media/6030?ref=daily-mail-categories">SOCIAL MEDIA</a></strong><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/facebook-marketing/6040?ref=daily-mail-categories">Facebook marketing</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/twitter-marketing/6080?ref=daily-mail-categories">Twitter marketing</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/linkedin-marketing/6160?ref=daily-mail-categories">Linkedin marketing</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/google-marketing/6180?ref=daily-mail-categories">Google+ marketing</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/instagram-marketing/6170?ref=daily-mail-categories">Instagram marketing</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/social-bookmarking/6150?ref=daily-mail-categories">Social bookmarking</a><br/>-->
+                            <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/forum-marketing/6200?ref=daily-mail-categories">Forum marketing</a><br/>-->
                         </td>
                     </tr>
                 </table>
@@ -1000,34 +1009,57 @@
         </tr>
     </table>
 </td>
-<td class="wrapper last">
-    <table class="columns four">
-        <tr>
-            <td>
-                <strong><a href="http://www.peopleperhour.com/hourlies/social-media/6030?ref=daily-mail-categories">SOCIAL MEDIA</a></strong><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/facebook-marketing/6040?ref=daily-mail-categories">Facebook marketing</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/twitter-marketing/6080?ref=daily-mail-categories">Twitter marketing</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/linkedin-marketing/6160?ref=daily-mail-categories">Linkedin marketing</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/google-marketing/6180?ref=daily-mail-categories">Google+ marketing</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/instagram-marketing/6170?ref=daily-mail-categories">Instagram marketing</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/social-bookmarking/6150?ref=daily-mail-categories">Social bookmarking</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/forum-marketing/6200?ref=daily-mail-categories">Forum marketing</a><br/>
-                    &nbsp;<br/>
-                    &nbsp;<br/>
-                <strong>
-                    <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000?ref=daily-mail-categories">SOFTWARE DEV & MOBILE</a></strong><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/databases/1060?ref=daily-mail-categories">Databases</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/mobile-development/1010?ref=daily-mail-categories">Mobile Development</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/software-testing/1210?ref=daily-mail-categories">Software testing</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/java/1150?ref=daily-mail-categories">Java</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/game-development/1200?ref=daily-mail-categories">Game development</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/c/1230?ref=daily-mail-categories">C++</a><br/>
-                    - <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/data-mining/1220?ref=daily-mail-categories">Data mining</a><br/>
-                    <!--- <a href="http://www.peopleperhour.com/hourlies/software-dev-mobile/1000/visual-basic/1240?ref=daily-mail-categories">Visual basic</a><br/>-->
-            </td>
-        </tr>
-    </table>
-</td>
+    <td class="wrapper">
+        <table class="columns four">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <strong>
+                                    <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480?ref=daily-mail-categories">WRITING & TRANSLATION</a></strong><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/web-content/8490?ref=daily-mail-categories">Web Content</a><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/copywriting-proofreading/8590?ref=daily-mail-categories">Copywriting/Proofreading</a><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/business-marketing/8690?ref=daily-mail-categories">Business & Marketing</a><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/article/8580?ref=daily-mail-categories">Article</a><br/>
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/translation/8780?ref=daily-mail-categories">Translation</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/technical-writing/8870?ref=daily-mail-categories">Technical writing</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/creative-writing/8600?ref=daily-mail-categories">Creative writing</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/writing-translation/8480/cv-cover-letter/8960?ref=daily-mail-categories">CV/Cover Letter</a><br/>-->
+                                    <!--<br />-->
+                                    <!--<a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10?ref=daily-mail-categories">VIDEO, PHOTO & AUDIO</a></strong><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/video/20?ref=daily-mail-categories">Video</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/image-editing/270?ref=daily-mail-categories">Image Editing</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/audio/200?ref=daily-mail-categories">Audio</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/photography/110?ref=daily-mail-categories">Photography</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/voiceover/260?ref=daily-mail-categories">Voiceover</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/film-making/340?ref=daily-mail-categories">Film                             making</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/video-photo-audio/10/music/380?ref=daily-mail-categories">Music</a><br/>-->
+                                <!--<strong><br />-->
+                                <!--<a href="http://www.peopleperhour.com/hourlies/business-support/3360?ref=daily-mail-categories">BUSINESS SUPPORT</a></strong><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/typing-proofreading/3370?ref=daily-mail-categories">Typing/Proofreading</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/business-services/3450?ref=daily-mail-categories">Business services</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/accounting-tax/3670?ref=daily-mail-categories">Accounting/Tax</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/other/3840?ref=daily-mail-categories">Other</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/data-research/3830?ref=daily-mail-categories">Data research</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/va-admin-support/3760?ref=daily-mail-categories">VA/Admin support</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/excel-vba/3360?ref=daily-mail-categories">Excel/VBA</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/business-support/3360/presentations/3800?ref=daily-mail-categories">Presentations</a><br/>-->
+                                <br/><strong><a href="http://www.peopleperhour.com/hourlies/social-media/6030?ref=daily-mail-categories">SOCIAL MEDIA</a></strong><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/facebook-marketing/6040?ref=daily-mail-categories">Facebook marketing</a><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/twitter-marketing/6080?ref=daily-mail-categories">Twitter marketing</a><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/linkedin-marketing/6160?ref=daily-mail-categories">Linkedin marketing</a><br/>
+                                - <a href="http://www.peopleperhour.com/hourlies/social-media/6030/google-marketing/6180?ref=daily-mail-categories">Google+ marketing</a><br/>
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/instagram-marketing/6170?ref=daily-mail-categories">Instagram marketing</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/social-bookmarking/6150?ref=daily-mail-categories">Social bookmarking</a><br/>-->
+                                <!--- <a href="http://www.peopleperhour.com/hourlies/social-media/6030/forum-marketing/6200?ref=daily-mail-categories">Forum marketing</a><br/>-->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
 </tr>
 </table>
 </td>
