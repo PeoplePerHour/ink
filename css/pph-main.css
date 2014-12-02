@@ -98,8 +98,7 @@ img.round-img {
 /*
  * Important:
  * The ink default value is 580px which is the size of the grid and it's overriden with media queries.
- * Since we don't use media queries due to gmail, we override this to 270 which is the width of a column
- * in our two column grid
+ * Since we don't use media queries due to gmail, we override this to 100% which is the container's available width
  */
 center {
     min-width: 100%;
