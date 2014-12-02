@@ -21,7 +21,6 @@ table.hourlie-item {
     background-color: #f5f5f5;
 }
 .hourlie-item .hourlie-title {
-    color: #565656;
     height: 55px; /* 35px of the child element + 20px padding */
     position: relative;
 }
@@ -30,6 +29,9 @@ table.hourlie-item {
     overflow: hidden;
     padding: 10px;
     position: absolute;
+}
+.hourlie-item .hourlie-title a {
+    color: #565656;
 }
 .hourlie-item .hourlie-details > div {
     padding: 5px 10px 10px 10px;
