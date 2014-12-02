@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>{{>ink}}</style>
+    <style>{{>pph-main}}</style>
+    <style>{{>buttons}}</style>
+    <style>{{>hourlies}}</style>
+    <style>{{>jobs}}</style>
+</head>
+<body>
+<table class="body">
+    <tr>
+        <td>
+            <!-- BEGIN: Header -->
+            {{> _header }}
+            <!-- END: Header -->
+            <!-- BEGIN: Main Content -->
+            <table class="container bgWhite main-content">
+                <tr>
+                    <td>
+                        <div class="container-padding padding-top">
+                            <p>
+                                Hey John,
+                            </p>
+                            <p>
+                                We did some research for the best Website development Hourlie offers available, delivered by our top experts. Here's what we recommend for you:
+                            </p>
+                        </div>
+                        <!-- BEGIN: Hourlie list -->
+                        <table class="block-grid two-up">
+                            <tr>
+                                <td>
+                                    {{> _hourlieTile }}
+                                </td><td>
+                                    {{> _hourlieTile }}
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- END: Hourlie list -->
+                        <!-- BEGIN: Browse offers button -->
+                        <div class="container-padding buttons-container">
+                            <center>
+                            <table class="button small-button pph-btn pph-blue-btn pph-inverted-btn radius main-action">
+                                <tr>
+                                    <td>
+                                        <a href="#">Browse Offers</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            </center>
+                        </div>
+                        <!-- END: Browse offers button -->
+                        <!-- BEGIN: Signature -->
+                        {{> _pph-sign }}
+                        <!-- END: Signature -->
+                        <!-- BEGIN: Fake post job form -->
+                        {{> _post-job-fake }}
+                        <!-- END: Fake post job form -->
+                    </td>
+                </tr>
+            </table>
+            <!-- END: Main Content -->
+            <!-- BEGIN: Footer -->
+            {{> _footer }}
+            <!-- END: Footer -->
+        </td>
+    </tr>
+</table>
+</body>
+</html>

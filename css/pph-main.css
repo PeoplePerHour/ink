@@ -1,0 +1,205 @@
+/**
+ * PPH CSS
+ */
+
+/*
+ // -------------------------------
+ // Links colors:
+ // Default:  #D260000 (orange)
+ //  Hourlies: #8FD117  (green)
+ // Jobs:     #4774B7 (blue)
+ // -------------------------------
+ */
+body {
+    background-color: #ededed;
+    font-size: 13px;
+}
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, label {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #505050;
+}
+a.call-to-action, a.call-to-action:visited, a.call-to-action:hover {
+    color: #D26000 !important;
+}
+a.call-to-action.underlined {
+    text-decoration: underline;
+}
+label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* Helper classes css */
+.bgWhite {
+    background-color: #fff;
+}
+.centered {
+    text-align: center;
+}
+.crop {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.discreet {
+    color: #848484;
+}
+.container-padding {
+    padding: 0 15px !important;
+}
+.padding {
+    padding: 15px !important;
+}
+.padding-top {
+    padding-top: 15px !important;
+}
+.padding-right {
+    padding-right: 15px !important;
+}
+.padding-bottom {
+    padding-bottom: 15px !important;
+}
+.padding-left {
+    padding-left: 15px !important;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.no-padding-top {
+    padding-top: 0 !important;
+}
+.no-padding-right {
+    padding-right: 0 !important;
+}
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+.no-padding-left {
+    padding-left: 0 !important;
+}
+img.round-img {
+             border-radius: 50%;
+     -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+
+       -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+}
+.small {
+    font-size: 10px;
+}
+
+/**
+ // ------------------------
+ // PPH specific Ink overrides
+ // ------------------------
+ */
+/*
+ * Important:
+ * The ink default value is 580px which is the size of the grid and it's overriden with media queries.
+ * Since we don't use media queries due to gmail, we override this to 270 which is the width of a column
+ * in our two column grid
+ */
+center {
+    min-width: 100%;
+}
+
+/* Header css */
+table.header {
+    margin-bottom: 60px;
+}
+table.header > tr > td,
+table.header > tbody > tr > td {
+    border-bottom: 3px solid #e1e1e1;
+}
+table.header,
+table.header > tr > td,
+table.header > tbody > tr > td {
+    min-width: 100%;
+    width: 100%;
+}
+table.header table.header-content td {
+    padding: 20px 0;
+}
+/* Content title */
+.content-header {
+    padding: 0 15px;
+}
+.content-header > table {
+    min-width: 100%;
+    width: 100%;
+}
+.content-header .left-col {
+    width: 80%;
+}
+.content-header .right-col {
+    width: 20%;
+}
+.content-header .icon img {
+    float: right;
+    max-width: 65px;
+    width: 100%;
+}
+.content-header .title {
+    padding-bottom: 5px;
+}
+.content-header h1 {
+    font-size: 26px;
+}
+.content-header .subtitle {
+    font-size: 14px;
+    line-height: 1.4;
+}
+.content-header hr.separator {
+    background-color: #e1e1e1;
+    color: #e1e1e1;
+    display: block;
+    margin-bottom: 30px;
+}
+/* Main content css */
+table.container > tbody > tr > td > p,
+table.container > tr > td > p {
+    padding: 0 15px;
+}
+.container.main-content > tbody > tr > td,
+.container.main-content > tr > td {
+    padding: 0;
+}
+/* Footer css */
+table.footer {
+    margin-top: 60px;
+}
+table.footer,
+table.footer > tr > td,
+table.footer > tbody > tr > td {
+    min-width: 100% !important;
+    width: 100% !important;
+}
+table.footer table.container.footer-content table {
+    width: 100%;
+}
+table.footer table.container.footer-content > tbody > tr > td,
+table.footer table.container.footer-content > tr > td {
+    padding: 20px 0;
+}
+table.footer table.social-icons-container {
+    margin-bottom: 15px;
+    width: 100%;
+}
+table.footer a.social-icon {
+    color: #2ba6cb;
+    display: inline-block;
+    text-decoration: none;
+}
+table.footer a.social-icon img {
+    height: 20px;
+    margin: 0 5px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    table[class="container"] .block-grid td {
+        width: 100% !important;
+    }
+}
