@@ -1,0 +1,149 @@
+/**
+ * PPH Buttons
+ */
+.buttons-container {
+    margin: 30px 0;
+}
+table.button.pph-btn td {
+    background-color: #fff;
+}
+table.button.pph-btn td:hover {
+    border-style: 1px solid;
+}
+table.button.pph-btn.pph-short-btn td {
+    padding: 2px 0;
+}
+table.button.pph-btn td a {
+    font-size: 13px;
+}
+table.button.pph-btn.main-action,
+table.button.pph-btn.main-action td {
+    width: 230px;
+}
+table.button.pph-btn.main-action td a {
+    text-transform: uppercase;
+}
+/*
+// -----------------------
+// Orange button
+// Background: #FF7300;
+// Font Color: #D26000;
+// -----------------------
+*/
+table.button.pph-btn.pph-orange-btn td {
+    border-color: #FF7300;
+}
+table.button.pph-btn.pph-orange-btn td a {
+    color: #D26000;
+}
+table.button.pph-btn.pph-orange-btn td a:visited {
+    color: #D26000 !important;
+}
+table.button.pph-btn.pph-orange-btn td:hover {
+    background-color: #FF7300 !important;
+}
+table.button.pph-btn.pph-orange-btn td a:hover,
+table.button.pph-btn.pph-orange-btn td:hover a:visited {
+    color: #FFF !important;
+}
+/* Orange button inverted */
+table.button.pph-btn.pph-orange-btn.pph-inverted-btn td {
+    background-color: #FF7300;
+}
+table.button.pph-btn.pph-orange-btn.pph-inverted-btn td a {
+    color: #FFF;
+}
+table.button.pph-btn.pph-orange-btn.pph-inverted-btn td a:visited {
+    color: #FFF !important;
+}
+table.button.pph-btn.pph-orange-btn.pph-inverted-btn td:hover {
+    background-color: #FFF !important;
+}
+table.button.pph-btn.pph-orange-btn.pph-inverted-btn td:hover a,
+table.button.pph-btn.pph-orange-btn.pph-inverted-btn td a:hover,
+table.button.pph-btn.pph-orange-btn.pph-inverted-btn td:hover a:visited {
+    color: #D26000 !important;
+}
+
+/*
+// -----------------------
+// Green button
+// Background: #8FD117;
+// Font Color: #6FA72D;
+// -----------------------
+*/
+table.button.pph-btn.pph-green-btn td {
+    border-color: #8FD117;
+}
+table.button.pph-btn.pph-green-btn td a {
+    color: #6FA72D;
+}
+table.button.pph-btn.pph-green-btn td a:visited {
+    color: #6FA72D !important;
+}
+table.button.pph-btn.pph-green-btn td:hover {
+    background-color: #8FD117 !important;
+}
+table.button.pph-btn.pph-green-btn td a:hover,
+table.button.pph-btn.pph-green-btn td:hover a:visited {
+    color: #FFF !important;
+}
+/* Green button inverted */
+table.button.pph-btn.pph-green-btn.pph-inverted-btn td {
+    background-color: #8FD117;
+}
+table.button.pph-btn.pph-green-btn.pph-inverted-btn td a {
+    color: #FFF;
+}
+table.button.pph-btn.pph-green-btn.pph-inverted-btn td a:visited {
+    color: #FFF !important;
+}
+table.button.pph-btn.pph-green-btn.pph-inverted-btn td:hover {
+    background-color: #FFF !important;
+}
+table.button.pph-btn.pph-green-btn.pph-inverted-btn td:hover a,
+table.button.pph-btn.pph-green-btn.pph-inverted-btn td a:hover,
+table.button.pph-btn.pph-green-btn.pph-inverted-btn td:hover a:visited {
+    color: #6FA72D !important;
+}
+/*
+// -----------------------
+// Blue button
+// Background: #4774B7;
+// Font Color: #4774B7;
+// -----------------------
+*/
+table.button.pph-btn.pph-blue-btn td {
+    border-color: #4774B7;
+}
+table.button.pph-btn.pph-blue-btn td a {
+    color: #4774B7; /* blue */
+}
+table.button.pph-btn.pph-blue-btn td a:visited {
+    color: #4774B7 !important;
+}
+table.button.pph-btn.pph-blue-btn td:hover {
+    background-color: #4774B7 !important;
+}
+table.button.pph-btn.pph-blue-btn td a:hover,
+table.button.pph-btn.pph-blue-btn td:hover a:visited {
+    color: #fff !important;
+}
+/* Blue button inverted */
+table.button.pph-btn.pph-blue-btn.pph-inverted-btn td {
+    background-color: #4774B7;
+}
+table.button.pph-btn.pph-blue-btn.pph-inverted-btn td a {
+    color: #FFF;
+}
+table.button.pph-btn.pph-blue-btn.pph-inverted-btn td a:visited {
+    color: #FFF !important;
+}
+table.button.pph-btn.pph-blue-btn.pph-inverted-btn td:hover {
+    background-color: #FFF !important;
+}
+table.button.pph-btn.pph-blue-btn.pph-inverted-btn td:hover a,
+table.button.pph-btn.pph-blue-btn.pph-inverted-btn td a:hover,
+table.button.pph-btn.pph-blue-btn.pph-inverted-btn td:hover a:visited {
+    color: #4774B7 !important;
+}

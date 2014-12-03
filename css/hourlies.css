@@ -1,0 +1,77 @@
+/**
+ * Hourlies css
+ */
+
+/*
+// -----------------------------
+// Hourlie tile for 2Col grid
+// -----------------------------
+*/
+table.hourlie-item {
+    width: 270px;
+}
+/* Reset the 10px padding set by block-grid td */
+.hourlie-item .hourlie-img,
+.hourlie-item .hourlie-title,
+.hourlie-item .hourlie-details {
+    padding: 0;
+}
+.hourlie-item .hourlie-title,
+.hourlie-item .hourlie-details {
+    background-color: #f5f5f5;
+}
+.hourlie-item .hourlie-title {
+    height: 55px; /* 35px of the child element + 20px padding */
+    position: relative;
+}
+.hourlie-item .hourlie-title > div {
+    height: 35px;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+}
+.hourlie-item .hourlie-title a {
+    color: #565656;
+}
+.hourlie-item .hourlie-details > div {
+    padding: 5px 10px 10px 10px;
+}
+.hourlie-item .hourlie-details > div > table {
+    width: 250px; /* (container width) 270px - 20px (padding) */
+}
+/* Reset the 10px padding set by ".block-grid td" and the 270px width set by ".two-up td" */
+.hourlie-item .hourlie-details td {
+    padding: 0;
+    width: auto;
+}
+.hourlie-item .hourlie-details td.user-cont {
+    width: 180px;
+}
+.hourlie-item .hourlie-details td.btn-cont {
+    float: right;
+    width: 70px;
+}
+.hourlie-item .hourlie-seller-img, .hourlie-item .hourlie-seller-img {
+    display: inline-block;
+}
+.hourlie-item .hourlie-seller-img, .hourlie-item .hourlie-seller-img img {
+    height: 25px;
+    width: 25px;
+}
+.hourlie-item .hourlie-seller-name {
+    color: #555;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 5px;
+    height: 25px;
+    line-height: 25px;
+}
+.hourlie-item .pph-btn {
+    margin-top: 2px;
+}
+.hourlie-item .pph-btn,
+.hourlie-item .pph-btn td {
+    width: 70px !important;
+}

@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     assemble: {
-      options: {partials: 'css/*.css'},
+      options: {partials: ['css/*.css', 'templates/pph/partials/*.html']},
       templates: {
         src: 'templates/**/*.html',
         dest: 'build/downloads',
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
     watch: {
       docs: {
         files: ['docs/docs.php', 'docs/**/*.php', 'docs/**/*.html', 'css/*.css'],
-        tasks: ['shell:makeStage', 'assemble:docsDev', 'shell:testDocs'],
+        tasks: ['shell:makeStage', 'assemble:docsDev', 'assemble:templates', 'shell:testDocs'],
         options: {
           livereload: true,
         },

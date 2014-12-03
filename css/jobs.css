@@ -1,0 +1,17 @@
+/**
+ * Fake post job form
+ */
+.post-job-form-fake {
+    padding: 0 15px;
+}
+.post-job-form-fake td.first-row {
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.post-job-form-fake td.second-row {
+    padding-bottom: 15px;
+}
+table.post-job-form-fake td.second-row img {
+    width: 100% !important;
+    max-width: 540px;
+}
