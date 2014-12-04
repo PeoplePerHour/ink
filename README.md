@@ -23,7 +23,7 @@ If Ink knocks your socks off the way we hope it does and you want more, why not 
 
 # Ink for PPH
 
-PeoplePerHour has adopted Ink framework in order to get benefited by the responsive features of the framework. 
+PeoplePerHour has adopted Ink framework in order to get benefited by the responsive features of the framework.
 
 #### Quick glossary
 
@@ -46,22 +46,19 @@ The **partials** folder contain the html template of all re-usable elements acro
 
 Below is the template of the pph signature template:
 ```
-<!-- HINT: Replace {sometext} with {{sometext}} after the template is passed to the inliner in order to use it a pph template -->
 <div class="container-padding padding-bottom">
   <table>
       <tr>
           <td align="left">
-              {Top}<br>
-              {Bottom}
+              [[Top]]<br>
+              [[Bottom]]
           </td>
       </tr>
   </table>
 </div>
 ```
 
-Notice the string enclosed in single curly brackets, which is *almost* the placeholder notation expected by the email templates in PPH. We will elaborate more on this topic in a next section.
-
-Also, notice that the partials are meant to be included in an email template and should never be passed directly to the inliner.
+The partials are meant to be included in an email template and should never be passed directly to the inliner.
 
 ### basic
 
@@ -89,7 +86,7 @@ Below is the template of the **sign** element that includes the **_pph_sign** pa
 </html>
 ```
 
-After a basic template is compiled via *grunt assemble*, the compiled template found in **/build/downloads/templates/pph/** can by passed to an inliner. 
+After a basic template is compiled via *grunt assemble*, the compiled template found in **/build/downloads/templates/pph/** can by passed to an inliner.
 
 Below you can see the basic template presented above, but compiled:
 ```
@@ -113,8 +110,8 @@ Below you can see the basic template presented above, but compiled:
   <table>
       <tr>
           <td align="left">
-              {Top}<br>
-              {Bottom}
+              [[Top]]<br>
+              [[Bottom]]
           </td>
       </tr>
   </table>
@@ -140,8 +137,8 @@ Below you can see the compiled template presented above, but converted:
     <table style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; padding: 0;">
       <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
         <td align="left" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #505050; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
-          {Top}<br />
-          {Bottom}
+          [[Top]]<br />
+          [[Bottom]]
         </td>
       </tr>
     </table>
@@ -149,8 +146,6 @@ Below you can see the compiled template presented above, but converted:
 </body>
 </html>
 ```
-
-Now, let's explain more about the single curly bracket placeholders mentioned in the previous section. These placeholders should enclose each string in a double, instead of single curly brackets, i.e we should use {{SomeText}} instead of {SomeText}. However, we use the single curly brackets because the double curly brackets notation is used by **grunt assemble** task in order to identify partials. However, in the converted template we need to replace the single curly brackets with double, prior to using it as a template in PPH.
 
 ### demos
 
