@@ -7,7 +7,8 @@
 // Hourlie tile for 2Col grid
 // -----------------------------
 */
-table.hourlie-item {
+table.hourlie-item,
+table.hourlie-item .hourlie-img img {
     width: 270px;
 }
 /* Reset the 10px padding set by block-grid td */
