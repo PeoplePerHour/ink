@@ -89,6 +89,25 @@ img.round-img {
 .small {
     font-size: 10px;
 }
+/**
+ // ------------------------
+ // PPH Grey box
+ // ------------------------
+*/
+.grey-box table {
+    background: #F5F5F5;    
+    width: 100%;
+}
+.grey-box table tr td {
+    padding: 0 15px;
+}
+.grey-box table tr td.title {
+    padding-top: 15px;
+}
+.grey-box table tr td.content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 /**
  // ------------------------
