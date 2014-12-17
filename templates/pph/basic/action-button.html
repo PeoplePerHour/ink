@@ -8,13 +8,20 @@
     <style>{{>buttons}}</style>
 </head>
 <body>
-<!-- BEGIN: Main Action Button -->
-<div class="container-padding buttons-container">
+<!-- 
+    BEGIN: Main Action Button 
+    NOTICE:
+    -------
+    After the compiled template is passed to the inliner make sure that:
+    - all placeholders are intact, i.e [[ ]]
+    - use the inline td styles that the inliner overwrote!
+-->
+<div class="container-padding pph-btn buttons-container">
     <center>
-    <table class="button small-button pph-btn pph-green-btn pph-inverted-btn radius main-action" style="width: {Width}px">
+    <table class="button small-button radius main-action" style="width: [[Width]]px">
         <tr>
-            <td style="background: #{BgColor}; border: 1px solid {BorderColor}" bgcolor="{BgColor}">
-                <a href="{Url}">{Text}</a>
+            <td style="background: #[[BgColor]] !important; border: 1px solid #[[BorderColor]] !important" bgcolor="[[BgColor]]">
+                <a href="[[Url]]" style="color: #[[Color]];">[[Text]]</a>
             </td>
         </tr>
     </table>
