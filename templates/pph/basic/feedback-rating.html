@@ -9,24 +9,33 @@
 </head>
 <body>
 <!-- 
-    BEGIN: Main Action Button 
+    BEGIN: Feedback rating 
     NOTICE:
     -------
     After the compiled template is passed to the inliner make sure that:
     - all placeholders are intact, i.e [[ ]]
     - use the inline td styles that the inliner overwrote!
 -->
-<div class="container-padding pph-btn buttons-container">
-    <center>
-    <table class="button small-button radius main-action" style="width: [[Width]]px">
+<div class="grey-box padding-bottom padding-top">
+    <table>
         <tr>
-            <td style="background: #[[BgColor]] !important; border: 1px solid #[[BorderColor]] !important" bgcolor="[[BgColor]]">
-                <a href="[[Url]]" style="color: #[[Color]];">[[Text]]</a>
+            <td class="feedback-title title">
+                [[Rating]]
+            </td>
+            <td class="rating-stars">
+                [[RatingStars]]
+            </td>
+        </tr>
+        <tr>
+            <td class="feedback-content">
+                [[Feedback]]
+            </td>
+            <td class="feedback-text">
+                [[FeedbackText]]
             </td>
         </tr>
     </table>
-    </center>
 </div>
-<!-- END: Main Action Button -->
+<!-- END: Feedback rating -->
 </body>
 </html>
