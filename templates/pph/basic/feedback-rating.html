@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <style>{{>ink}}</style>
+    <style>{{>pph-main}}</style>
+    <style>{{>buttons}}</style>
+</head>
+<body>
+<!-- 
+    BEGIN: Feedback rating 
+    NOTICE:
+    -------
+    After the compiled template is passed to the inliner make sure that:
+    - all placeholders are intact, i.e [[ ]]
+    - use the inline td styles that the inliner overwrote!
+-->
+<div class="grey-box padding-bottom padding-top">
+    <table>
+        <tr>
+            <td class="feedback-title title">
+                [[Rating]]
+            </td>
+            <td class="rating-stars">
+                [[RatingStars]]
+            </td>
+        </tr>
+        <tr>
+            <td class="feedback-content">
+                [[Feedback]]
+            </td>
+            <td class="feedback-text">
+                [[FeedbackText]]
+            </td>
+        </tr>
+    </table>
+</div>
+<!-- END: Feedback rating -->
+</body>
+</html>

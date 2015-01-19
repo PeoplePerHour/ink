@@ -94,19 +94,45 @@ img.round-img {
  // PPH Grey box
  // ------------------------
 */
+.grey-box {
+    background-color: #F5F5F5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .grey-box table {
-    background: #F5F5F5;    
     width: 100%;
 }
 .grey-box table tr td {
     padding: 0 15px;
 }
 .grey-box table tr td.title {
-    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .grey-box table tr td.content {
-    padding-top: 15px;
-    padding-bottom: 15px;
+
+}
+
+/**
+ // ------------------------
+ // PPH Feedback rating
+ // ------------------------
+*/
+.grey-box .rating-stars img {
+    clear: none;
+}
+.grey-box table tr td.feedback-content {
+    white-space: nowrap;
+    width: 40%;
+}
+.grey-box table tr td.feedback-title {
+    white-space: nowrap;
+    width: 40%;
+}
+.grey-box table tr td.feedback-text {
+    width: 60%;
+}
+.grey-box table tr td.rating-stars {
+    width: 60%;
 }
 
 /**
