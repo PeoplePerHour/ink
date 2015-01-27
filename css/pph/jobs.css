@@ -15,3 +15,92 @@ table.post-job-form-fake td.second-row img {
     width: 100% !important;
     max-width: 540px;
 }
+/**
+ * Proposal-box
+ */
+table.proposal-item {
+	width: 100%;
+	background-color: #EDEDED;
+	border-radius: 7px 7px 0 0;
+}
+
+table.proposal-item .user-info {
+	padding: 15px 15px 0 15px;
+}
+
+table.proposal-item .user-info .user-details {
+	vertical-align: middle;
+	padding-left: 10px;
+	height: 20px;
+	width: 520px;
+}
+
+table.proposal-item .user-info .user-details .user-name {
+	font-weight: bold;
+	height: 20px;
+}
+
+table.proposal-item .user-info .user-image, table.proposal-item .user-info .user-image img {
+	width: 60px;
+}
+
+
+table.proposal-item .user-info .user-details .user-location {
+	padding-right: 5px;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999;
+	display: inline-block;
+}
+table.proposal-item .user-info .user-details .user-rating {
+	padding-right: 5px;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999;
+	display: inline-block;
+}
+
+table.proposal-item .user-message {
+	padding: 15px;
+}
+
+table.proposal-item .user-message .border {
+	background-color: #dedede;
+	width: 100%;
+	height: 1px;
+	margin-bottom: 15px;
+}
+
+table.proposal-item .bottom-line {
+	background-color: #DEDEDE;
+	height: 50px;
+	padding: 0 10px;
+	border-radius: 0 0 7px 7px;
+}
+	
+table.proposal-item .bottom-line .bottom-line-table {
+	height: 50px;
+	width: 100%;
+}
+table.proposal-item .bottom-line .bottom-line-table tr .proposal-amount {
+	width: 450px;
+	font-weight: bold;
+}
+table.proposal-item .bottom-line .bottom-line-table tr .btn-cont {
+	width: 100px !important;
+}
+
+table.proposal-item .bottom-line .bottom-line-table tr .btn-cont .pph-btn a {
+	width: 100px !important;
+}
+
+
+table.proposal-item .bottom-line table tr td {
+	vertical-align: middle;
+}
+
+table.proposal-item .bottom-line table tr td.bottom-view-btn {
+	text-align: right;
+}
