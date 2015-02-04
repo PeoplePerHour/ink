@@ -1,0 +1,38 @@
+table.referral-invitation {
+	margin-top: 40px;
+}
+table.referral-invitation .joinme-label {
+	font-size: 18px;
+	color: #808080;
+	text-align: center;
+}
+
+table.referral-invitation .user-image {
+	text-align: center;
+}
+
+table.referral-invitation .user-image img{
+	float: none;
+	display: inline-block;
+}
+
+table.referral-invitation-quote {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 520px;
+}
+
+table.referral-invitation-quote .quote-img {
+	border-right: 2px solid #C9C9C9;
+	width: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+table.referral-invitation-quote .quote-img img {
+	display: inline-block;
+	float: none;
+}
+
+table.referral-invitation-quote .quote-text {
+	padding-left: 10px;
+}
