@@ -31,6 +31,15 @@ table.freelancer-item .freelancer-img {
     position: relative;
     width: 270px;
 }
+.freelancer-item .freelancer-title .name {
+    font-weight: bold;
+    font-size: 15px;
+}
+.freelancer-item .freelancer-title .title {
+    font-size: 13px;
+    overflow: hidden;
+    height: 20px;
+}
 .freelancer-item .freelancer-title > div {
     height: 35px;
     overflow: hidden;
@@ -48,14 +57,16 @@ table.freelancer-item .freelancer-img {
     width: 70px;
 }
 .freelancer-item .freelancer-title .title-cert .cert-circle {
-    background-color: red;
     float:right;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    line-height: 20px;
-    font-size: 10px;
+    line-height: 30px;
     font-weight: bold;
+    position: relative;
+    top: 5px;
+    color: white;
+    font-size: 15px;
 }
 .freelancer-item .freelancer-title .title-cert img {
     float: right;
@@ -102,4 +113,8 @@ table.freelancer-item .freelancer-img {
 .freelancer-item .pph-btn,
 .freelancer-item .pph-btn td {
     width: 70px !important;
+}
+
+.freelancer-item .pph-btn td a {
+    overflow: hidden;
 }
