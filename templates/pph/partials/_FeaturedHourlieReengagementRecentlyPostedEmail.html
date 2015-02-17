@@ -1,0 +1,84 @@
+<div class="content-header">
+    <table>
+        <tr>
+            <td class="title">
+                <h1>Feature your Hourlie and get even more sales</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="subtitle" style="color:#8FD117;">
+                &ldquo;{hourlieTitle}&rdquo;
+            </td>
+        </tr>
+        <tr>
+            <td class="text-pad">
+                <hr class="separator"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div style="padding: 0 15px;">
+    <p>Hey {memberFname},</p>
+    <p>We see you are still trying to make the first sale of your Hourlie.</p>
+    [isViewed]<p>It has only received {viewsCount} views since it was posted.</p>[/isViewed]
+    [isNotViewed]<p>It hasn't received any views since it was posted.</p>[/isNotViewed]
+
+    <p>
+        To give it a push, you can now Feature it which will move it to the top of the page giving it <strong>3x more chances of selling</strong> and <strong>50% extra page views</strong>.
+    </p>
+    <p>
+        Featured Hourlies also have increased chance of promotion on our Home page, our Hourlie of the Day mailer and Buyers' login dashboard.
+    </p>
+
+    [isCompetingHourlieAvailable]
+    <p>
+        Your competitor <a href="{competingHourlieMemberProfile}" style="color: #fc741e; text-decoration: none">{competingHourlieMemberName}</a> featured their Hourlie <a href="{competingHourlieUrl}" style="color: #5e9200; text-decoration: none">{competingHourlieTitle}</a> and secured {competingHourlieSales} more sales - don't let them get ahead!
+    </p>
+    [/isCompetingHourlieAvailable]
+    
+    <table style="width: 100%; height: 100px; background-color: #f7fced; border-top: 1px solid #e3e9d8; border-bottom: 1px solid #e3e9d8; padding: 10px; min-height: 80px; margin: 20px 0;">
+        <tr>
+            <td style="padding: 0; margin: 0; padding-right: 10px; width: 114px; height: 87px; vertical-align: top; background: transparent url('{hourlieImage}') no-repeat 6px 6px">
+                <a href="{hourlieUrl}" title="{hourlieTitle}" style="text-decoration: none; border: none; display: block" target="_blank">
+                    <img src="{cdnUrl}/css/pph2/mails/featured_ribbon.png" style="width: 114px; height: 87px; margin: 0; padding: 0; border: none;" alt="Get your hourlie featured">
+                </a>
+            </td>
+            <td style="vertical-align: top">
+                <table style="width: 100%; height: 100% border: 0; padding: 0; margin: 0; padding-right: 10px; min-height: 85px; vertical-align: top;">
+                    <tr>
+                        <td style="font-size: 14px; font-weight: bold; font-family:Arial,sans-serif; vertical-align: top; margin: 0; padding: 0;">
+                            <a href="{hourlieUrl}" title="{hourlieTitle}" style="color: #5e9200; text-decoration: none; height: 65px; display: block;" target="_blank">
+                                {hourlieTitle}
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle; margin: 0; padding: 0; vertical-align: bottom;">
+                            <a href="{memberProfileUrl}" style="border: 0; text-decoration: none; display: inline-block;" target="_blank">
+                                <img src="{memberThumb}" style="max-width: 20px; max-height: 20px;" alt="{memberShortName}">
+                            </a>&nbsp;
+                            <a href="{memberProfileUrl}" style="border: 0; text-decoration: none; color: #252525; display: inline-block;">{memberShortName}</a>&nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        So go on, feature it now and secure that crucial first sale.
+        That will get the ball rolling and make it much easier to secure future work. You don't have much to lose!
+    </p>
+    <div class="container-padding pph-btn buttons-container">
+        <center>
+        <table class="button small-button radius main-action" style="width: 280px">
+            <tr>
+                <td style="background: #8FD117 !important; border: 1px solid #8FD117 !important; width: 280px" bgcolor="#8FD117">
+                    <a href="{baseUrl}/promotions/hourlies-featured?medium=email&source=FeaturedHourlieReengagementRecentlyPostedKOEmail" style="color: #ffffff;">Feature my Hourlie now</a>
+                </td>
+            </tr>
+        </table>
+        </center>
+    </div>
+</div>
