@@ -86,6 +86,15 @@ img.round-img {
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
 }
+div.circle {
+             border-radius: 50%;
+     -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+
+       -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+}
 .small {
     font-size: 10px;
 }

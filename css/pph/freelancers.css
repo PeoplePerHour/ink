@@ -1,0 +1,105 @@
+/**
+ * freelancers css
+ */
+
+/*
+// -----------------------------
+// freelancer tile for 2Col grid
+// -----------------------------
+*/
+table.freelancer-item,
+table.freelancer-item .freelancer-img img {
+    padding: 15px 0 0 0;
+    width: 150px;
+}
+
+table.freelancer-item .freelancer-img {
+    background-color: #F5F5F5;
+}
+/* Reset the 10px padding set by block-grid td */
+.freelancer-item .freelancer-img,
+.freelancer-item .freelancer-title,
+.freelancer-item .freelancer-details {
+    padding: 0;
+}
+.freelancer-item .freelancer-title,
+.freelancer-item .freelancer-details {
+    background-color: #f5f5f5;
+}
+.freelancer-item .freelancer-title {
+    height: 55px; /* 35px of the child element + 20px padding */
+    position: relative;
+    width: 270px;
+}
+.freelancer-item .freelancer-title > div {
+    height: 35px;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+}
+.freelancer-item .freelancer-title a {
+    color: #565656;
+    font-weight: bold;
+}
+.freelancer-item .freelancer-title .title-details {
+    width: 180px;
+}
+.freelancer-item .freelancer-title .title-cert {
+    width: 70px;
+}
+.freelancer-item .freelancer-title .title-cert .cert-circle {
+    background-color: red;
+    float:right;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.freelancer-item .freelancer-title .title-cert img {
+    float: right;
+}
+.freelancer-item .freelancer-details > div {
+    padding: 5px 10px 10px 10px;
+}
+.freelancer-item .freelancer-details > div > table {
+    width: 250px; /* (container width) 270px - 20px (padding) */
+}
+/* Reset the 10px padding set by ".block-grid td" and the 270px width set by ".two-up td" */
+.freelancer-item .freelancer-details td {
+    padding: 0;
+    width: auto;
+}
+.freelancer-item .freelancer-details td.user-cont {
+    width: 180px;
+    padding-top: 7px;
+}
+.freelancer-item .freelancer-details td.btn-cont {
+    float: right;
+    width: 70px;
+}
+.freelancer-item .freelancer-seller-img, .freelancer-item .freelancer-seller-img {
+    display: inline-block;
+}
+.freelancer-item .freelancer-seller-img, .freelancer-item .freelancer-seller-img img {
+    height: 16px;
+    width: 16px;
+}
+.freelancer-item .freelancer-seller-name {
+    color: #999999;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 11px;
+    padding: 0 5px 0 0;
+    width: 140px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.freelancer-item .pph-btn {
+    margin-top: 2px;
+}
+.freelancer-item .pph-btn,
+.freelancer-item .pph-btn td {
+    width: 70px !important;
+}
