@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <style>
+    {{> ink }}
+    </style>
+    <style>
+        html {
+            font-family: 'Open Sans', Arial, sans-serif !important;
+            background: #ffffff;
+        }
+        @media only screen and (max-width:600px) { 
+            table.container {
+                width:100% !important;
+                min-width: 100%;
+                -webkit-text-size-adjust:100%;
+                -ms-text-size-adjust:100%;
+                margin:0;
+                padding:0;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+
+        }
+        .pph-background {
+            background-image: url(https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/newsletter_image.jpg);
+            background-repeat:no-repeat;
+            background-position: top center;
+            height: 393px;
+        }
+        .header-text {
+            background-color: #ffffff;
+            margin-top: 100px;
+            opacity: 0.9;
+        }
+        .header-text-container {
+            width: 300px;
+            text-align: left;
+            font-size: 19px;
+            padding: 10px 0;
+            display: inline-block;
+            line-height: 22px;
+        }
+        .header-button .cta-button {
+            width: 230px;
+        }
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .sub-header {
+            width: 100%;
+        }
+        .sub-header-button {
+            width: 100%;
+        }
+        
+        .sub-header-button tr td {
+            margin-bottom: 25px;
+        }
+
+        .orange-box-text {
+            font-size: 31px;
+            line-height: 32px;
+            padding-top: 30px;
+            font-family: "Times New Roman", Times, serif;
+
+        }
+
+        .services-details {
+            float: right;
+            font-size: 18px;
+            width: 65%;
+        }
+        .services-details .services-title {
+            font-weight: bold;
+            border-bottom: 2px solid #000000;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        .services-details p {
+            margin-top: 4px;
+            font-size: 18px;
+        }
+        .services-details a, .services-details a:hover {
+            color: #F47015 !important;
+        }
+
+        .services-table {
+            width: 77%;
+        }
+        .services-icon {
+            width: 100%;
+            display: inline-block;
+        }
+
+        .services-icon img {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .services-header-text {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+            width: 560px;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .footer-container {
+            width: 100%;
+            margin-top: 25px;
+        }
+        .footer-container tr td {
+            padding: 20px 0;
+            height: 42px;
+        }
+        .footer-text {
+            font-size: 20px;
+            padding-left: 12% !important;
+        }
+        .footer-text a {
+            margin-right: 20px;
+        }
+        
+        .footer-text-wrap {
+            height: 42px;
+            line-height: 42px;
+            display: block;
+            float: left;
+            margin-right: 50px;
+        }
+        .footer-text-wrap a, .footer-text-wrap a:hover {
+            color: #000000 !important;
+            border-bottom: 2px solid #000000;
+            float: none !important;
+        }
+
+        .footer-social-wrap {
+            float: left;
+            white-space: nowrap;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        .black-bg {
+            background-color: #000000;
+        }
+        .white-text {
+            color: #FFFFFF;
+        }
+
+        .white-text a, .white-text a:hover {
+            color: #FFFFFF !important;
+        }
+        .button-wrapper {
+            text-align: center;
+            width: 100%;
+        }
+
+        .button-wrapper .button {
+            
+        }
+
+        .use-code-wrapper {
+            text-align: left;
+            padding-left: 8%;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        
+        .use-code-wrapper span {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .use-code-wrapper .use-code {
+            margin-right: 50px;
+        }
+
+        .use-code-wrapper span a, .use-code-wrapper span a:hover {
+            color: #ffffff !important;
+        }
+        .use-code-wrapper > span {
+            margin-top: 30px;
+        }
+        .text-padding {
+            padding-left: 8% !important;
+            padding-right: 8% !important;
+        }
+
+        .text-padding-left {
+            padding-left: 8% !important;
+        }
+        .text-padding-right {
+            padding-right: 8% !important;
+        }
+
+        .orange-bg {
+            background-color: #F76A0B;
+        }
+        .white-bg {
+            background-color: #FFFFFF;
+        }
+        .grey-bg {
+            background-color: #EAEAEA;
+        }
+        .copy-text {
+            font-size: 10px;
+        }
+        .center {
+            text-align: center;
+        }
+        .social-icons {
+            width: 100%;
+        }
+        .social-icons a {
+            float: left;
+            margin-right: 11px;
+        }
+        .social-icons a img {
+            width: 35px;
+        }
+        .right {
+            float: right;
+        }
+        img {
+            clear: unset !important;
+        }
+    </style>
+</head>
+<body>
+    <table class="container">
+      <tr>
+        <td>
+            <div class="pph-background">
+                <table class="block-grid one-up">
+                <tr>
+                    <td>
+                        <img src="https://d3ambpg2zf25sl.cloudfront.net/img/pph3_logo.png" alt="PPH Logo"/>
+                    </td>
+                </tr>
+                </table>
+
+
+                <table class="block-grid one-up header-text">
+                <tr class="center">
+                  <td>
+                        <span class="header-text-container">
+                        We've noticed it's been awhile<br/>
+                        since you visited PeoplePerHour.<br/>
+                        We have over 34,000 curated<br/>
+                        experts ready to help you today.
+                        </span>
+                  </td>
+                </tr>
+                </table>
+
+                <table class="block-grid one-up button-container">
+                <tr class="center">
+                    <td>
+                        <a href="*|BASEURL|*/lp5/get_20_off?aside=1&voucher=*|MD5:EMAIL|*&promo=KTA">
+                            <img class="cta-button center" src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/letsgo.png" alt="Lets Go" />
+                        </a>
+                    </td>
+                </tr>
+                </table>
+            </div>
+            <table class="orange-bg sub-header">
+                <tr class="center">
+                  <td class="orange-box-text text-padding">
+                        Receive 20% Off Your Next Job Post!
+                  </td>
+                </tr>
+            </table>
+
+            <table class="orange-bg sub-header-button">
+                <tr>
+                    <td class="use-code-wrapper button-wrapper">
+                        <span class="use-code">
+                            Use Code: <a href="*|BASEURL|*/lp5/get_20_off?aside=1&voucher=*|MD5:EMAIL|*&promo=KTA">click to see</a> 
+                        </span>
+                        <span class="button black-bg white-text">
+                            <a href="*|BASEURL|*/lp5/get_20_off?aside=1&voucher=*|MD5:EMAIL|*&promo=KTA">
+                                Get 20% Off Now
+                            </a>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="block-grid one-up white-bg">
+                <tr>
+                    <td class="center services-header-text">
+                        
+                        Our Most Popular Services
+                        
+
+                    </td>
+                </tr>
+            </table>
+
+            <table class="block-grid one-up white-bg">
+                <tr class="center">
+                    <td class="services-table">
+                        <span class="services-icon"> 
+                            <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/icon1.png" alt="Custom Websites"/>
+                            
+                            <div class="services-details">                                
+                                <span class="services-title">Custom Websites</span>
+                                <p>
+                                    Professionally developed websites.
+                                    Wordpress, CSS, PHP & HTML
+                                   
+                                </p>
+                                 <i><a href="*|BASEURL|*/website%20development-hourlies?filter=all">Learn More ></a></i>
+                            </div>
+                        </span>
+
+                  </td>
+                </tr>
+            </table>
+            <table class="block-grid one-up white-bg">
+                <tr class="center">
+                    <td class="services-table">
+                        <span class="services-icon">
+                            <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/icon2.png" alt="Designs"/>
+                            
+                            <div class="services-details">                                
+                                <span class="services-title">World Class Designs</span>
+                                <p>
+                                    One of a kind logos, vectors, banners,
+                                    3D graphics & more
+                                    
+                                </p>
+                                <i><a href="*|BASEURL|*/design-hourlies?filter=all">Learn More ></a></i>
+                            </div>
+                        </span>
+
+                  </td>
+                </tr>
+            </table>
+
+            <table class="block-grid one-up white-bg">
+                <tr class="center">
+                    <td class="services-table">
+                        <span class="services-icon">
+                            <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/icon3.png" alt="Marketing Assistance" />
+                            
+                            <div class="services-details">                                
+                                <span class="services-title">Marketing Assistance</span>
+                                <p>
+                                    Content generation, SEO, social media
+                                    guidance & everything else you need to
+                                    market your business
+                                    
+                                </p>
+                                <i><a href="*|BASEURL|*/marketing%20pr-hourlies?filter=all">Learn More ></a></i>
+                            </div>
+                        </span>
+
+                  </td>
+                </tr>
+            </table>
+
+            <table class="grey-bg footer-container">
+                <tr>
+                    <td class="footer-text social-icons text-padding-right">
+                        <div class="footer-text-wrap">
+                            <a href="http://support.peopleperhour.com/">Help</a>
+                            Follow Us:
+                        </div>
+                        
+                        <div class="footer-social-wrap">
+                            <a href="http://www.facebook.com/peopleperhour">
+                                <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/facebook.png" alt="facebook"/>
+                            </a>
+                            <a href="http://twitter.com/peopleperhour">
+                                <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/twitter.png" alt="twitter"/>
+                            </a>
+                            <a href="http://pinterest.com/peopleperhour/">
+                                <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/pinterest.png" alt="pinterest"/>
+                            </a>
+                            <a href="http://plus.google.com/+peopleperhour">
+                                <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/google.png" alt="googleplus"/>
+                            </a>
+                            <a href="https://www.linkedin.com/company/peopleperhour.com">
+                                <img src="https://s3.amazonaws.com/pph_mailchap_images/Newsletter_MAR15/in.png" alt="linked in"/>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="block-grid one-up white-bg">
+                <tr>
+                  <td class="copy-text">
+                    &copy;2007 - 2015 PeoplePerHour All rights reserved<br/>
+                    This is an important notification helping you quickly get the most out of PeoplePerHour.<br/>
+                    If you prefer not to receive it anymore, you may <a href="*|UNSUB|*">unsubscribe</a>
+                    <img alt="" width="1" height="1" src="*|IMGSTATS|*" />
+                  </td>
+                </tr>
+            </table>
+        </td>
+      </tr>
+    </table>
+</body>
+</html>
