@@ -36,6 +36,12 @@ label {
 .centered {
     text-align: center;
 }
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
 .crop {
     overflow: hidden;
     white-space: nowrap;
