@@ -166,7 +166,7 @@ center {
 
 /* Header css */
 table.header {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 table.header > tr > td,
 table.header > tbody > tr > td {
@@ -227,7 +227,7 @@ table.container > tr > td > p {
 }
 /* Footer css */
 table.footer {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 table.footer,
 table.footer > tr > td,
