@@ -1,0 +1,140 @@
+table.jobs-header {
+	width: 100%;
+}
+table.jobs-header tr td {
+	padding: 0 15px;
+}
+table.jobs-footer {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+table.jobs-footer tr td {
+	padding: 0 15px;
+}
+table.jobs-separator {
+	width: 100%;
+	margin: 15px 0;
+}
+table.jobs-separator tr td {
+	width: 100%;
+	padding: 0 15px;
+	height: 1px;
+}
+.content-body {
+	padding: 15px;
+}
+
+.content-all-text {
+	width: 100%;
+}
+
+hr.jobs-header-separator {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #eeeeee;
+	height: 1px;
+	display: block;
+}
+
+.feature-label {
+	color: #FFFFFF;
+	padding: 0 20px;
+	font-size: 8px;
+	border-radius: 2px;
+	background-color: #FE7F30;
+	line-height: 14px;
+	display: inline-block;
+}
+
+.feature-text {
+	display: inline-block;
+	padding-left: 15px;
+	color: #999999;
+	line-height: 15px;
+    vertical-align: bottom;
+}
+
+span.job-title {
+	font-size: 17px;
+	color: #111111;
+}
+table.job-title {
+	margin-bottom: 5px;
+}
+
+table.job-features {
+	margin-bottom: 15px;
+}
+
+table.job-text {
+	margin-bottom: 15px;
+}
+
+.proposal-btn {
+	background-color: #5a87c0;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 11px;
+    padding: 3px 15px;
+}
+
+.proposal-btn:hover {
+	color: #ffffff !important;
+}
+
+.content-header hr.separator {
+    background-color: #e1e1e1;
+    color: #e1e1e1;
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.greeting-title {
+	margin-bottom: 10px;
+	font-size: 20px
+}
+div.greeting-text {
+
+}
+span.all-jobs-link {
+	text-align: left;
+	display: inline-block;
+	font-size: 15px;
+	color: #666666;
+}
+span.view-all-link {
+	text-align: right;
+	display: inline-block;
+	float: right;
+	margin-left: 20px;
+}
+
+.budget-line {
+	color: #999;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.price-line {
+	vertical-align: middle;
+	padding-left: 5px;
+	display: inline-block;
+	font-size: 21px;
+	font-weight: bold;
+	color: #5986C1;
+}
+.width-full {
+	width: 100%;
+}
+.personalized-title {
+	font-size: 16px;
+	color: #111111;
+	margin-bottom: 5px;
+}
+/*table[class="body"] .container {
+    width: 100% !important;
+}*/
