@@ -27,7 +27,7 @@ table.freelancer-item .freelancer-img {
     background-color: #f5f5f5;
 }
 .freelancer-item .freelancer-title {
-    height: 55px; /* 35px of the child element + 20px padding */
+    height: 65px; /* 45px of the child element + 20px padding */
     position: relative;
     width: 270px;
 }
@@ -35,13 +35,13 @@ table.freelancer-item .freelancer-img {
     font-weight: bold;
     font-size: 15px;
 }
-.freelancer-item .freelancer-title .title {
+.freelancer-item .freelancer-title .title, .freelancer-item .freelancer-title .available {
     font-size: 13px;
     overflow: hidden;
     height: 20px;
 }
 .freelancer-item .freelancer-title > div {
-    height: 35px;
+    height: 55px;
     overflow: hidden;
     padding: 10px;
     position: absolute;
@@ -67,6 +67,9 @@ table.freelancer-item .freelancer-img {
     top: 5px;
     color: white;
     font-size: 15px;
+}
+.freelancer-item .freelancer-title .title-cert .cert-circle.cert-top {
+    font-size: 13px;
 }
 .freelancer-item .freelancer-title .title-cert img {
     float: right;
