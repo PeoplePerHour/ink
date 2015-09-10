@@ -13,13 +13,13 @@ Ink is MIT-licensed and absolutely free to use. Ink wouldn't be possible without
 * Base Source for CSS
 * Docs
 * Responsive Email Templates
-* README, CONTRIBUTING and LICENSE
+* [README](https://github.com/zurb/ink/blob/master/README.md), [CONTRIBUTING](https://github.com/zurb/ink/blob/master/CONTRIBUTING.md) and [LICENSE](https://github.com/zurb/ink/blob/master/LICENSE.md)
 
 # ZURB
 
 Ink was made by [ZURB](http://www.zurb.com), a product design company in Campbell, CA.
 
-If Ink knocks your socks off the way we hope it does and you want more, why not check out [our jobs](http://www.zurb.com/talent)?
+If Ink knocks your socks off the way we hope it does and you want more, why not check out [our jobs](http://zurb.com/about/talent)?
 
 # Ink for PPH
 
